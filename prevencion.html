@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Métodos de Prevención - Helcen</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --color-agua: #00b4d8;
+      --color-agua-bg: #e0f7fa;
+      --color-energia: #ffb703;
+      --color-energia-bg: #fff9db;
+    }
+    body { background-color: #f8f9fa; color: #333; }
+    .hero-header { background: linear-gradient(135deg, #023e8a 0%, #0077b6 100%); color: white; }
+    .card-agua { background-color: var(--color-agua-bg); border-left: 6px solid var(--color-agua); }
+    .card-energia { background-color: var(--color-energia-bg); border-left: 6px solid var(--color-energia); }
+  </style>
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <header class="hero-header text-center py-5 shadow-sm">
+    <div class="container d-flex flex-column align-items-center">
+      <img src="logo.png" alt="Helcen Logo" class="mb-3" style="max-height: 110px; width: auto;">
+      <h1 class="display-4 fw-bold mb-1">Helcen</h1>
+      <p class="lead mb-0">Soluciones y acciones para la preservación planetaria</p>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-info d-flex align-items-center gap-2" href="index.html">
+        <img src="logo.png" alt="Logo" style="height: 30px;">
+        HELCEN
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="causas.html">Causas</a></li>
+          <li class="nav-item"><a class="nav-link" href="consecuencias.html">Consecuencias</a></li>
+          <li class="nav-item"><a class="nav-link active" href="prevencion.html">Métodos de prevención</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5 flex-grow-1">
+    <section class="text-center mb-5">
+      <h2 class="fw-bold text-primary mb-3">Acciones Inteligentes y Sostenibles</h2>
+      <p class="lead text-muted">Aplica estos hábitos esenciales en tu día a día para proteger las fuentes de agua y optimizar el consumo de energía.</p>
+    </section>
+
+    <div class="row g-4 mb-5">
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm border-0 card-agua p-3">
+          <div class="card-body">
+            <span class="badge bg-info text-dark mb-3 px-3 py-2 rounded-pill">Prevención para el Agua</span>
+            <h3 class="h4 card-title fw-bold text-dark mb-3">💧 Protección del Agua y el Entorno</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2"><strong>Reducir plásticos:</strong> Disminuye el uso de plásticos de un solo uso para evitar la contaminación de mares y ríos.</li>
+              <li class="mb-2"><strong>Productos biodegradables:</strong> Elige artículos de limpieza libres de fosfatos para no dañar los ecosistemas acuáticos.</li>
+              <li class="mb-2"><strong>Gestión de residuos:</strong> Desecha correctamente aceites de cocina, pilas y medicamentos sin arrojarlos por el desagüe.</li>
+              <li class="mb-2"><strong>Jardinería limpia:</strong> Evita el uso de pesticidas químicos en plantas y jardines.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm border-0 card-energia p-3">
+          <div class="card-body">
+            <span class="badge bg-warning text-dark mb-3 px-3 py-2 rounded-pill">Prevención para la Energía</span>
+            <h3 class="h4 card-title fw-bold text-dark mb-3">⚡ Eficiencia y Ahorro en el Hogar</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2"><strong>Climatización eficiente:</strong> Sellá grietas y mantené el aire acondicionado en 24 °C.</li>
+              <li class="mb-2"><strong>Eliminar "consumo fantasma":</strong> Desenchufa cargadores y usa zapatillas con interruptor para apagar artefactos en stand-by.</li>
+              <li class="mb-2"><strong>Iluminación LED:</strong> Reemplaza todas las lámparas tradicionales por tecnología LED de bajo consumo.</li>
+              <li class="mb-2"><strong>Lavado inteligente:</strong> Utiliza el lavarropas siempre a carga completa y con agua fría.</li>
+              <li class="mb-2"><strong>Ubicación de la heladera:</strong> Mantén la heladera alejada de fuentes de calor para reducir su gasto.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="p-4 p-md-5 rounded-4 bg-info text-white text-center shadow-sm">
+      <h3 class="fw-bold mb-2">¡Reducción drástica del impacto ambiental!</h3>
+      <p class="mb-0 fs-5">Pequeños ajustes en la rutina de tu hogar generan un cambio masivo en el planeta. ¡Pasa la voz con Helcen!</p>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4 mt-auto">
+    <p class="mb-0">&copy; 2026 <strong>Helcen</strong> — Latorre, Makinistián, Ramos</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

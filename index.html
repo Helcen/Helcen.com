@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Helcen - Plataforma Ambiental de Agua y Energía</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --color-agua: #00b4d8;
+      --color-energia: #ffb703;
+    }
+    body { background-color: #f8f9fa; color: #333; }
+    .hero-header { background: linear-gradient(135deg, #023e8a 0%, #0077b6 100%); color: white; }
+    .bg-agua { background-color: var(--color-agua) !important; color: white; }
+    .bg-energia { background-color: var(--color-energia) !important; color: #212529; }
+    .card-agua { border-top: 5px solid var(--color-agua); }
+    .card-energia { border-top: 5px solid var(--color-energia); }
+    .card-exito { border-top: 5px solid #198754; }
+  </style>
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <header class="hero-header text-center py-5 shadow-sm">
+    <div class="container d-flex flex-column align-items-center">
+      <img src="logo.png" alt="Helcen Logo" class="mb-3" style="max-height: 110px; width: auto;">
+      <h1 class="display-4 fw-bold mb-1">Helcen</h1>
+      <p class="lead mb-0">Conciencia y soluciones para el mal uso del agua y la energía</p>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-info d-flex align-items-center gap-2" href="index.html">
+        <img src="logo.png" alt="Logo" style="height: 30px;">
+        HELCEN
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="causas.html">Causas</a></li>
+          <li class="nav-item"><a class="nav-link" href="consecuencias.html">Consecuencias</a></li>
+          <li class="nav-item"><a class="nav-link" href="prevencion.html">Métodos de prevención</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5 flex-grow-1">
+    <section class="text-center mb-5">
+      <h2 class="fw-bold text-primary mb-3">Transformando la gestión de recursos vitales</h2>
+      <p class="lead text-muted mx-auto" style="max-width: 800px;">En Helcen analizamos el impacto del uso desmedido del agua y la energía para promover hábitos de conservación y eficiencia tecnológica.</p>
+    </section>
+
+    <div class="row g-4 mb-5">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm card-agua border-0">
+          <div class="card-body p-4">
+            <span class="badge bg-agua mb-2 px-3 py-2 rounded-pill">Recurso del Agua</span>
+            <h3 class="h4 card-title fw-bold mt-2">💧 Crisis del Agua dulce</h3>
+            <p class="card-text text-secondary">Apenas el 2.5% del agua del planeta es dulce, y menos del 1% está disponible para el consumo directo. Se necesita una gestión sostenible.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm card-energia border-0">
+          <div class="card-body p-4">
+            <span class="badge bg-energia mb-2 px-3 py-2 rounded-pill">Matriz Energética</span>
+            <h3 class="h4 card-title fw-bold mt-2">⚡ Sección energética</h3>
+            <p class="card-text text-secondary">Gran parte de la energía producida proviene de combustibles fósiles. Optimizar su uso reduce de forma inmediata las emisiones de dióxido de carbono.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm card-exito border-0">
+          <div class="card-body p-4">
+            <span class="badge bg-success mb-2 px-3 py-2 rounded-pill">Visión Helcen</span>
+            <h3 class="h4 card-title fw-bold mt-2">🌐 Compromiso Activo</h3>
+            <p class="card-text text-secondary">A través de la educación y el uso de tecnologías eficientes, cada hogar y comunidad puede convertirse en un refugio de sostenibilidad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="p-4 p-md-5 rounded-4 bg-primary text-white text-center shadow-sm">
+      <h3 class="fw-bold mb-2">¡Explora el impacto de nuestras acciones!</h3>
+      <p class="mb-0 fs-5">Revisa las secciones de Causas, Consecuencias y Métodos de Prevención para entender la problemática global y cómo actuar hoy.</p>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4 mt-auto">
+    <p class="mb-0">&copy; 2026 <strong>Helcen</strong> — Latorre, Makinistián, Ramos</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
