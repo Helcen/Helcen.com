@@ -16,6 +16,11 @@
     .hero-header { background: linear-gradient(135deg, #023e8a 0%, #0077b6 100%); color: white; }
     .card-agua { background-color: var(--color-agua-bg); border-left: 6px solid var(--color-agua); }
     .card-energia { background-color: var(--color-energia-bg); border-left: 6px solid var(--color-energia); }
+    .prevencion-img {
+      max-height: 380px;
+      object-fit: cover;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    }
   </style>
   <link rel="icon" type="image/png" href="logo.png">
 </head>
@@ -88,10 +93,17 @@
       </div>
     </div>
 
-    <section class="p-4 p-md-5 rounded-4 bg-info text-white text-center shadow-sm">
+    <section class="p-4 p-md-5 rounded-4 bg-info text-white text-center shadow-sm mb-5">
       <h3 class="fw-bold mb-2">¡Reducción drástica del impacto ambiental!</h3>
       <p class="mb-0 fs-5">Pequeños ajustes en la rutina de tu hogar generan un cambio masivo en el planeta. ¡Pasa la voz con Helcen!</p>
     </section>
+
+    <!-- Imagen de prevención -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <img src="https://picsum.photos/id/1015/1200/400" alt="Conservación de recursos naturales" class="img-fluid rounded-4 prevencion-img w-100">
+      </div>
+    </div>
   </main>
 
   <footer class="bg-dark text-white text-center py-4 mt-auto">
