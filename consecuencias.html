@@ -14,6 +14,12 @@
     .hero-header { background: linear-gradient(135deg, #023e8a 0%, #0077b6 100%); color: white; }
     .card-agua { border-top: 5px solid var(--color-agua); }
     .card-energia { border-top: 5px solid var(--color-energia); }
+    .consecuencias-img {
+      height: 100%;
+      min-height: 280px;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
   </style>
   <link rel="icon" type="image/png" href="logo.png">
 </head>
@@ -48,10 +54,16 @@
   </nav>
 
   <main class="container my-5 flex-grow-1">
-    <section class="text-center mb-5">
-      <h2 class="fw-bold text-primary mb-3">Efectos del mal uso de recursos</h2>
-      <p class="lead text-muted mx-auto" style="max-width: 800px;">La falta de prácticas sostenibles genera secuelas directas tanto en el presupuesto del hogar como en el equilibrio del entorno ambiental.</p>
-    </section>
+    <div class="row align-items-center mb-5 g-4">
+      <div class="col-lg-7">
+        <h2 class="fw-bold text-primary mb-3">Efectos del mal uso de recursos</h2>
+        <p class="lead text-muted mb-0">La falta de prácticas sostenibles genera secuelas directas tanto en el presupuesto del hogar como en el equilibrio del entorno ambiental. El agotamiento hídrico y las emisiones desmedidas impactan la vida cotidiana y la naturaleza.</p>
+      </div>
+      <div class="col-lg-5">
+        <!-- Imagen enfocada en plantas termoeléctricas emitiendo humo sobre un cuerpo de agua -->
+        <img src="ee.jpg" alt="ee" class="img-fluid rounded-4 consecuencias-img w-100">
+      </div>
+    </div>
 
     <div class="row g-4 mb-5">
       <div class="col-md-6">
